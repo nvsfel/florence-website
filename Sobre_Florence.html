@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sobre Florence</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Roboto&display=swap" rel="stylesheet"> 
+
+    <style>
+      a{
+        color: darkviolet;
+    }
+        .hero-background {
+          background-image: url(https://pbs.twimg.com/media/G2mQFXvWIAAy2xL?format=jpg&name=large);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 130vh; 
+        }
+    
+    .setlist-fundo {
+        
+    background: linear-gradient(rgb(51, 0, 0), rgb(148, 7, 7));
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff; 
+    padding: 2rem 0;
+    }
+    .setlist-fundo2 {
+        
+        background: linear-gradient(rgb(148, 7, 7),rgb(51, 0, 0));
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #ffffff;  
+        padding: 2rem 0;
+        }
+
+    .timeline{
+      position: relative;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .timeline::before{
+      content:'';
+      position: absolute;
+      top:50%;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background-color: rgb(182, 100, 100);
+      transform: translateY(-50%);
+      z-index: 0;
+    }
+    .timeline-card{
+      position: relative;
+      z-index:1;
+      text-align:center;
+    }
+    .timeline-card .card{
+
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+    .timeline-card .card:hover {
+      transform: translateY(-10px);
+    }
+    .timeline-card::after{
+      content:'';
+      position: absolute;
+      top: calc(50% - 10px);
+      left: calc(50% - 10px);
+      width: 20px;
+      height : 20px;
+      background-color: rgba(218, 218, 218, 0);
+      border-radius: 50%;
+      border: 3px solid rgba(71, 71, 71, 0);
+      z-index: 2;
+    }
+    @media (max-width: 767px){
+        .timeline::before {
+          display: none;
+        }
+        .timeline-carde::after{
+          display: none;
+        }
+        .timeline-card {
+          padding-top: 15px;
+          padding-bottom: 15px;
+        }
+        .timeline .card{
+          transform: none !important;
+        }
+    }
+    
+
+</style>
+        
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="florence_index.html">FLORENCE®</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="florence_index.html">Discografia</a>
+              <a class="nav-link" href="Sobre_Florence.html">Sobre</a>
+              <a class="nav-link" href="redes_florence.html">Redes</a>
+        <a class="nav-link disabled" aria-disabled="true"></a> 
+            </div>
+          </div>
+        </div>
+      </nav>  
+      <div class="setlist-fundo">
+
+        <div class="container fluid my-5">
+      <div class="p-5 text-center text-white hero-background">
+
+       
+          
+
+            </div>
+      
+     
+
+      
+        <div class="row row-cols-1 row-cols-md-4 row-cols-lg-12 timeline">
+            <div class="col timeline-card"><div class="card" style="width: 16rem;">
+              <img src="https://i1.sndcdn.com/artworks-000213494232-l3c6ew-t240x240.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text"><b><i>2015</i></b><br>Com o <b>TRAPPIST-1</b>, Florence se lança em carreira solo. Neste ano, ele experimenta a produção autônoma, criando faixas com batidas de trap lentas e pesadas, e explorando as dinâmicas vocais que se tornariam sua marca registrada.</p>
+              </div>
+            </div>
+          </div>
+            <div class="col timeline-card"><div class="card" style="width: 16rem;">
+              <img src="https://cdn-images.dzcdn.net/images/cover/2ac3be656f26bffa2491552db55f735c/1900x1900-000000-80-0-0.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text"><b><i>2016</i></b><br>Florence explora sua caneta compondo todas as faixas do ano em inglês. Este ano é marcado pelos projetos <b>Lil Flowers</b> e <b>American Beauty</b>, sendo esse produzido em parceria com Nansy Silvvz. O artista explora cadências mais aceleradas e dançantes, incorporando vocais suaves e <i>adlibs</i> dinâmicos.</p>
+              </div>
+            </div>
+          </div>
+            <div class="col timeline-card"><div class="card" style="width: 16rem;">
+              <img src="https://cdn-images.dzcdn.net/images/cover/3f8e1cf3f2ca2bf80cf3d4b851365585/1900x1900-000000-80-0-0.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text"><b><i>2017</i></b><br>Florence se embrenha na dualidade. O álbum <b>Luv Tapes - B SIDE</b> revoluciona seu som com um hard/cloud trap carregado de lírica áspera e <i>screamo</i>, um aceno à sua carreira no Death Metal e à então tendência estadunidense. Em contraponto, <b>Luv Tapes - LADO A</b>, lançado no fim de dezembro, traz uma faceta mais sensível, com versos emocionalmente expostos que abordam expectativa e ansiedade.</p>
+              </div>
+            </div>
+          </div>
+            <div class="col timeline-card"><div class="card" style="width: 16rem;">
+              <img src="https://cdn-images.dzcdn.net/images/cover/b0155a49c8ad3a2535a6d0f7e968479e/500x500-000000-80-0-0.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text"><b><i>2018</i></b><br>Dois meses depois de <b>Luv</b>, surge <b>O Incrível Mundo de Flowers</b>. Imersivo e etéreo, marcado por <i>808</i>s e <i>reverbs</i> nos vocais. A seguir, <b>Simetria</b> escancara um salto de qualidade na produção e atrai a atenção da <b>UFO Records</b>, levando Florence para o Rio de Janeiro. Sob o selo, ele lança <b>Peleia</b>, um projeto que se torna um verdadeiro abre-alas em sua carreira, expandindo seus horizontes e criando novas conexões no mercado musical.</p>
+              </div>
+            </div>
+          </div>
+        </div>   
+
+       <div class="row row-cols-1 row-cols-md-4 row-cols-lg-12 timeline">      
+            <div class="col timeline-card"><div class="card" style="width: 16rem;">
+              <img src="https://cdn-images.dzcdn.net/images/cover/5580ef4a2ef00a216da9a8f94265d16b/500x500-000000-80-0-0.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text"><b><i>2019</i></b><br>O estilo único chamou atenção da cena, rendendo convites para diversas participações, como <b>Overdrive/Overdrive Remix</b>, de Willsbife, e <b>Musicas Para Tocar No Carro, Vol 1</b>, de Dalua. No segundo semestre, o lançamento de <b>Um Passo do Céu</b> captura a ânsia do artista por ascender ao estrelato, enquanto sua lírica expressa desejo, conflito, pressa e o sentimento de deixar para trás a família, os amigos e sua antiga vida em busca de um sonho. Paralelamente, <b>Beastmode/Neverdie</b> e <b>Peixe</b> não nos deixam esquecer do que ele pode fazer quando não está entre <i>hihats</i> e <i>808</i>s.</p>
+              </div>
+            </div>
+          </div>
+            <div class="col timeline-card"><div class="card" style="width: 16rem;">
+              <img src="https://covers4.hosting-media.net/jpgr344/u3616409365021.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text"><b><i>2020</i></b><br>Reconhecido por diversos nomes do mercado, Florence expande sua presença pelo Brasil com o lançamento de Essencial. A essa altura, o artista já havia se destacado por várias participações em projetos de outros artistas. O álbum firma sua personalidade artística, combinando vibe, flow e lírica de forma única, com destaque para a paixão de <b>Finesse</b> e a obstinação de <b>Amém</b>. O projeto inclui seu maior hit, <b>Tame Impala</b>, que marca sua ascensão e representa um salto de evolução em relação a "Um Passo do Céu". A obra consolida o auge da carreira profissional de Florence até aquele momento, reafirmando sua identidade musical no mercado.</p>
+              </div>
+            </div>
+          </div>
+            <div class="col timeline-card"><div class="card" style="width: 16rem;">
+              <img src="https://source.boomplaymusic.com/group1/M1B/AD/66/rBEezl55226AXimnAADUmZZuX18101.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text"><b><i>2020</i></b><br>Cinco meses depois, o artista dobra a aposta com POPART. O projeto traz referências diretas a grandes sucessos do pop, que, somadas à sonoridade e à identidade de Florence, constroem outro marco em sua trajetória. Da reticente Polly à pungente Xiaomi, o artista fala de amor, ansiedade e saudade, mantendo ritmo e melodia. Com a ajuda de nomes como Zudizilla e Zemaru, a obra se enriquece ainda mais. Ele encerra o ano com Fullmoon Serenades, um trabalho que serve de prévia para uma nova faceta que seria explorada mais tarde. Infelizmente, a pandemia da COVID-19 e a pausa dos shows tornaram insustentável sua permanência no Rio de Janeiro.</p>
+              </div>
+            </div>
+          </div>
+            <div class="col timeline-card"><div class="card" style="width: 16rem;">
+              <img src="https://i1.sndcdn.com/artworks-P3tdau7vPm7C-0-t500x500.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text"><b><i>2021</i></b><br>Nem o baque da pandemia fez Florence perder a coragem de inovar. Inspirado pela imprevisibilidade, o artista lança <b>Tropical</b>, um EP em parceria com 808 Luke. O ano segue com o single <b>Natural</b>, uma aixa contemplativa e cativante, e o EP <b>Demon Internet - Goodbye Bluesky</b>, que flui do pop para o trance. O grande destaque do ano, no entanto, é o lançamento de <b>POPART 2</b>, um álbum com a mesma proposta do primeiro, referenciando ícones como Rihanna e David Guetta. O álbum é dançante e entregue como em <b>BEIBE</b>, mas com nuances introspectivas e etéreas em faixas como <b>Frozen</b> e <b>Milonga</b>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+            
+      <div class="row row-cols-1 row-cols-md-4 row-cols-lg-12 timeline">            
+            <div class="col timeline-card"><div class="card" style="width: 16rem;">
+              <img src="https://cdn-images.dzcdn.net/images/cover/4c746652b891115dcd7c24eaa40a693a/500x500-000000-80-0-0.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text"><b><i>2022</i></b><br>Vocais longos e melódicos, flow dinâmico e batidas dançantes. O EP <b>ELEMENTS</b> traz a apaixonada e elegante <b>Miami Vice</b> dividindo a setlist com o frenesi hipnotizante de <b>Raw</b>. Já os singles <b>Tempo</b> e <b>Energia</b> demonstram a capacidade de o artista adaptar seu flow a qualquer ritmo. O trap urbano de <b>Peleia</b> e <b>Um Passo do Céu</b> dão cada vez mais espaço a um Eletropop, ainda que flow e estética e voz tornem cada música de Florence distinguíveis em qualquer lugar.</p>
+              </div>
+            </div>
+          </div>
+            <div class="col timeline-card"><div class="card" style="width: 16rem;">
+              <img src="https://cdn-images.dzcdn.net/images/cover/be97130967ad6e633a74990fb21e06ef/500x500-000000-80-0-0.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text"><b><i>2023</i></b><br><b>JANDA (Essencial Vol.2)</b> traz o riffs de guitarra, sintetizadores e batidas modernas como o jersey club da sombria <b>Buss.</b>, que conta com André Mol, conhecido dos tempos de Rio de Janeiro. Florence trava uma busca, faixa a faixa, pelo seu próprio som. <b>DRACONIC</b>, projeto paralelo, também marca o ano com camadas de Eletro, Pop e Emo, que ressaltam a influência de New Order em seu trabalho artístico.</p>
+              </div>
+            </div>
+          </div>
+            <div class="col timeline-card"><div class="card" style="width: 16rem;">
+              <img src="https://cdn-images.dzcdn.net/images/cover/e58e5cc31ff42b6962f140c5b91260e8/500x500-000000-80-0-0.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text"><b><i>2024</i></b><br>Florence surge implacável e renovad com os singles <b>Mana</b>, <b>Mais Além</b> e <b>Star</b>, que preparam o terreno para <b>ANCESTRAL</b>, seu álbum mais longo, íntimo e versátil. O projeto é romântico, intenso e catártico, gingando em <b>Sem Paz</b>, respirando fundo em <b>Star pt.2</b> e se entregando em <b>Neblina</b>. A riqueza do álbum fica evidente na forma como ele passeia por diferentes décadas e gêneros, com faixas como <b>Céu da Noite</b>, que poderia estar em uma coletânea de Rock dos anos 2000, e <b>A Nossa Última Noite</b>, que evoca a sonoridade de uma coletânea Summer Eletrohits.</p>
+              </div>
+            </div>
+          </div>
+            <div class="col timeline-card"><div class="card" style="width: 16rem;">
+              <img src="https://yt3.googleusercontent.com/AzcO2gzdKk9nfrnFO2245456LhcN1wpF_8LshpY1G2188OzET8si-vnV6lvRWIGgW9lJ_Vrc=s160-c-k-c0x00ffffff-no-rj" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text"><b><i>2025</i></b><br>Até aqui, temos o EP <b>FLORENCE</b>, um projeto que reflete o desapego e o alívio em desabafos carregados. O trabalho é marcado por batidas enérgicas, uma identidade visual renovada e uma essência <i>eletropop</i> cada vez mais frenética, mostrando que o artista vive outro auge em sua trajetória. O material lançado até aqui serve como uma prévia das próximas novidades e fomenta a expectativa para o lançamento de seu novo álbum.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+            
+    
+    
+
+                  <p class="lead" style="color: rgb(255, 255, 255);">
+                    <b>A Origem Musical e a Busca por Autonomia</b><br> 
+
+                    A jornada de João Florence Silveira começou cedo, moldada por uma fusão de referências: o aprendizado inicial no violão ligado ao folclore gaúcho mesclou-se à influência profunda do pop, tendo Madonna como grande ícone. Autodidata na guitarra, sua paixão pela música o levou à experiência de palco com a banda de Death Metal <b>Rotten Filthy</b>. No entanto, sua carreira tomou um rumo singular ao buscar sua autonomia. Diante dos altos custos de produção, ele se tornou seu próprio produtor musical e diretor de arte, tendo criado a estética visual da grande de suas obras até hoje, adaptando referências e improvisando takes, como quando fez de recortes de cutscenes do <i>videogame</i> <b>Cyberpunk 2077</b> material para dar movimento às faixas de <b>Essencial</b>.<br><br><br>
+                  
+                    <b>A Transição Sonora: Do Rock ao Trap</b><br>
+                    
+                    A verdadeira virada veio com a transição de gênero musical. Florence não se identificava com o rap lírico tradicional, mas encontrou no trap a voz ideal. Sua sonoridade, no entanto, já estava fortemente permeada pela música pop e eletrônica, resultando em uma fusão inovadora de <i>trap-eletropop.</i> Essa mistura sonora logo chamou a atenção do mercado, culminando na proposta da UFO Records para assiná-lo. Como consequência, viria a mudança definitiva para o Rio de Janeiro. Na capital fluminense, sua popularidade cresceu e sua identidade artística amadureceu, incorporando cadências de rock, camadas de eletrônica e o estilo vocal do trap, atravessava um <i>boom</i> de popularidade. A trinca de álbuns Peleia, Um Passo do Céu e Essencial, os dois últimos já com vínculo profissional com a <b>Boca do Oriente</b> (atual MusicPRO), foram cruciais para solidificar essa personalidade única.<br><br><br> 
+            
+                    <b>O Auge Criativo e o Experimentalismo Pós-Pandemia</b><br>
+                    
+                    Essa convergência de influências alcançou seu ápice criativo no projeto <b>POPART</b>. Transcendendo o famoso movimento artístico de <i>Andy Warhol</i>, Florence buscou reverenciar a cultura popular e tudo aquilo que "fura a bolha", em uma obra que marcou um dos seus maiores auges artísticos. Contudo, o baque da pandemia, que o forçou a retornar ao Rio Grande do Sul, não atravancou sua arte, senão serviu como ponto de virada para o experimentalismo. Discos como <b>Ancestral</b>, com sua lírica romântica e intensa que viaja do rock ao new wave, e <b>Janda</b> -homenagem à sua avó e continuação espiritual de Essencial-, mostram a coragem em explorar novos territórios. Recentemente, o EP <b>FLORENCE</b> introduziu novos sons, preambulando o próximo álbum, <b>Mil Sóis e a Escuridão.</b> Embora o lado eletrônico predomine, ele mantém a cadência pungente do trap e sua lírica afiada, criando uma sonoridade tão pessoal quanto inovadora.<br><br>                     
+                    <small style="color: rgb(149, 74, 74);"><i>Paralelamente à carreira artística, Florence é Apresentador de Rádio na GVC FM 106.1 de Cachoeira do Sul.</i></small>
+
+                  </p>
+
+                
+
+
+                  
+                </div>
+
+                </div>
+
+              </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <footer class="text-center py-4 bg-dark text-white">
+            <div class="container">
+                <p>Todos os direitos reservados &copy; 2025</p>
+                <small><i>Esse site foi escrito e desenvolvido por <a href="https://github.com/nvsfel" target="_blank">nvsfel</a>, com grata colaboração de João Victor Florence Silveira.</i></small>
+            </div>
+        </footer>
+        
+              
+              
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+               <script> 
+                document.addEventListener('DOMContentLoaded', function() {
+    const timelineItems = document.querySelectorAll('.timeline-item');
+
+    timelineItems.forEach(item => {
+        item.addEventListener('click', function() {
+            timelineItems.forEach(i => i.classList.remove('active'));
+
+            this.classList.add('active');
+        });
+    });
+});
+              </script>
+              </body>
+              </html

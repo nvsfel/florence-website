@@ -35,6 +35,13 @@
         a{
             color: darkviolet;
         }
+        @media(max-width: 768px){
+            .hero-background {
+                height: 60vh;
+                background-position: top center;
+            }
+            
+        }
       </style>
 </head>
   <body>
@@ -61,9 +68,8 @@
 
         <div class="container-fluid py-5">
       
-          <h1 style="color:rgba(128,0,0,0.3); font-family:'Cinzel Decorative',serif;" class="display-5 fw-bold" >FLORENCE LIL FLOWERS</h1>
+          <h1 style="color:rgba(128,0,0,0.3); font-family:'Cinzel Decorative',serif;" class="display-5 fw-bold hero-title" >FLORENCE LIL FLOWERS</h1>
       
-          <p class="col-md-8 fs-4 mx-auto"></p>
       
         </div>
       </div>
@@ -123,7 +129,7 @@
     </div>
 
       <div class id="discografia">
-        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 p-5">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 p-5">
     
             <div class="col">
                 <div class="card">
